@@ -42,7 +42,6 @@ public class Main {
         options.addArguments("--disable-notifications");
         options.addArguments("--start-maximized");
 
-        //Start by assigning chromedriver to the users local location
         logger.info("Assigning Chromedriver");
         try {
             // Set the path to the ChromeDriver executable
