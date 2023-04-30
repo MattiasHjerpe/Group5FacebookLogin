@@ -37,7 +37,7 @@ public class Main {
             logger.error(e.getMessage());
         }
 
-        // Create ChromeOptions instance and adds arguments
+        // Create ChromeOptions instance and add arguments
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
         options.addArguments("--start-maximized");
