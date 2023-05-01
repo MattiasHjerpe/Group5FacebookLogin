@@ -17,6 +17,10 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
+        runFacebookLoginTest();
+    }
+
+    private static void runFacebookLoginTest() throws InterruptedException {
         Logger logger = LoggerFactory.getLogger(Main.class);
         WebDriver driver = null;
         String username = "";
@@ -98,6 +102,5 @@ public class Main {
 
         // Close the browser
         driver.quit();
-
     }
 }
